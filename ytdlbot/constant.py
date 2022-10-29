@@ -19,10 +19,10 @@ from utils import get_func_queue
 
 
 class BotText:
-    start = "Wwelcome to YouTube Download bot. Type /help for more information."
+    start = "•Welcome to All download bot.🎁\n•Join:- to use this bot. Type /help for more information"
 
     help = f"""
-1. This bot should works at all times. If it doesn't, try to send the link again or DM @BennyThink
+1. This bot should works at all times. If it doesn't, try to send the link again .
 
 2. At this time of writing, this bot consumes hundreds of GigaBytes of network traffic per day. 
 In order to avoid being abused, 
@@ -49,10 +49,6 @@ For example, if you download a video of 1GB, your current quota will be 9GB inst
 
 5. Please try not to abuse this service.
 
-6. It's a open source project, you can always deploy your own bot.
-
-7. For VIPs, please refer to /vip command
-    """ if ENABLE_VIP else "Please contact the actual owner of this bot"
 
     vip = f"""
 **Terms:**
@@ -61,21 +57,12 @@ For example, if you download a video of 1GB, your current quota will be 9GB inst
 3. VIPs identity won't expire.
 
 **Pay Tier:**
-1. Everyone: {sizeof_fmt(QUOTA)} per {int(EX / 3600)} hours
-2. VIP1: ${MULTIPLY} or ¥{MULTIPLY * USD2CNY}, {sizeof_fmt(QUOTA * 5)} per {int(EX / 3600)} hours
-3. VIP2: ${MULTIPLY * 2} or ¥{MULTIPLY * USD2CNY * 2}, {sizeof_fmt(QUOTA * 5 * 2)} per {int(EX / 3600)} hours
-4. VIP4....VIPn.
-5. Unlimited streaming conversion support.
-Note: If you pay $9, you'll become VIP1 instead of VIP2.
-
+..
 **Payment method:**
-1. (afdian) Mainland China: {AFD_LINK}
-2. (buy me a coffee) Other countries or regions: {COFFEE_LINK}
-__I live in a place where I don't have access to Telegram Payments. So...__
+..
 
 **After payment:**
 1. afdian: with your order number `/vip 123456`
-2. buy me a coffee: with your email `/vip someone@else.com`
     """ if ENABLE_VIP else "VIP is not enabled."
     vip_pay = "Processing your payments...If it's not responding after one minute, please contact @BennyThink."
 
