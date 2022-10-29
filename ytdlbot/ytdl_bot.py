@@ -153,7 +153,7 @@ def patch_handler(client: "Client", message: "types.Message"):
         message.reply_text(f"{count} cache(s) deleted.", quote=True)
 
 
-@app.on_message(filters.command(["ping"]))
+@app.on_message(filters.command(["pingwwe"]))
 def ping_handler(client: "Client", message: "types.Message"):
     chat_id = message.chat.id
     client.send_chat_action(chat_id, "typing")
@@ -182,7 +182,7 @@ def terms_handler(client: "Client", message: "types.Message"):
     client.send_message(chat_id, bot_text.terms)
 
 
-@app.on_message(filters.command(["sub_count"]))
+@app.on_message(filters.command(["sub_countwwe"]))
 def sub_count_handler(client: "Client", message: "types.Message"):
     username = message.from_user.username
     chat_id = message.chat.id
