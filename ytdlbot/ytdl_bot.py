@@ -168,14 +168,14 @@ def ping_handler(client: "Client", message: "types.Message"):
         client.send_message(chat_id, f"{bot_info}")
 
 
-@app.on_message(filters.command(["about"]))
+@app.on_message(filters.command(["aboutwwe"]))
 def help_handler(client: "Client", message: "types.Message"):
     chat_id = message.chat.id
     client.send_chat_action(chat_id, "typing")
     client.send_message(chat_id, bot_text.about)
 
 
-@app.on_message(filters.command(["terms"]))
+@app.on_message(filters.command(["termswwe"]))
 def terms_handler(client: "Client", message: "types.Message"):
     chat_id = message.chat.id
     client.send_chat_action(chat_id, "typing")
@@ -241,7 +241,7 @@ def settings_handler(client: "Client", message: "types.Message"):
     client.send_message(chat_id, bot_text.settings.format(data[1], data[2]) + mode_text, reply_markup=markup)
 
 
-@app.on_message(filters.command(["vip"]))
+@app.on_message(filters.command(["vipwwe"]))
 def vip_handler(client: "Client", message: "types.Message"):
     # process as chat.id, not from_user.id
     chat_id = message.chat.id
