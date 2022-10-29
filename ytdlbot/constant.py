@@ -19,7 +19,7 @@ from utils import get_func_queue
 
 
 class BotText:
-    startt = "Wwelcome to YouTube Download bot. Type /help for more information."
+    start = "Wwelcome to YouTube Download bot. Type /help for more information."
 
     help = f"""
 1. This bot should works at all times. If it doesn't, try to send the link again or DM @BennyThink
