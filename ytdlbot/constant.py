@@ -48,13 +48,11 @@ For example, if you download a video of 1GB, your current quota will be 9GB inst
 4. I won't gather any personal information, which means I don't know how many and what videos did you download.
 
 5. Please try not to abuse this service.
-
+"""
 
     vip = f"""
 **Terms:**
-1. No refund, I'll keep it running as long as I can.
-2. I'll record your unique ID after a successful payment, usually it's payment ID or email address.
-3. VIPs identity won't expire.
+
 
 **Pay Tier:**
 ..
