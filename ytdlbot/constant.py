@@ -19,7 +19,7 @@ from utils import get_func_queue
 
 
 class BotText:
-    start = "•Welcome to All download bot.🎁\n•Join:- to use this bot. Type /help for more information"
+    start = "•Welcome to All download bot.🎁\n•Join:- @doppelfod to use this bot. Type /help for more information"
 
     help = f"""
 1. This bot should works at all times. If it doesn't, try to send the link again .
